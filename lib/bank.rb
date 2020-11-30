@@ -14,7 +14,7 @@ class Bank
   private
 
   def add_deposit_statement(amount)
-    @transaction.list << "#{@transaction.date} || #{amount} || || #{balance}"
+    @transaction.list << "#{transaction.date} || #{amount} || || #{balance}"
   end
 
 end
