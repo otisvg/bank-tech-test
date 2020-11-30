@@ -8,6 +8,12 @@ class Bank
 
   def deposit(amount)
     @balance += amount
+    add_deposit_statement(amount)
+  end
+
+  private
+
+  def add_deposit_statement(amount)
     @transaction.list << "#{@transaction.date} || #{amount} || || #{balance}"
   end
 
