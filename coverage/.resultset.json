@@ -1,0 +1,110 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/otis/Desktop/Makers/tech-tests/bank/spec/bank_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          4,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/otis/Desktop/Makers/tech-tests/bank/lib/bank.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          4,
+          4,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/otis/Desktop/Makers/tech-tests/bank/spec/transaction_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/otis/Desktop/Makers/tech-tests/bank/lib/transaction.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          5,
+          null,
+          null,
+          1,
+          5,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1606753705
+  }
+}

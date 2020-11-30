@@ -13,6 +13,7 @@ class Bank
 
   def withdraw(amount)
     @balance -= amount
+    add_withdraw_statement(amount)
   end
 
   private
@@ -20,5 +21,10 @@ class Bank
   def add_deposit_statement(amount)
     @transaction.list << "#{transaction.date} || #{amount} || || #{balance}"
   end
+
+  def add_withdraw_statement(amount)
+    @transaction.list << "#{transaction.date} || || #{amount} || #{balance}"
+  end
+
 
 end
