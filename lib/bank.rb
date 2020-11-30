@@ -16,6 +16,10 @@ class Bank
     add_withdraw_statement(amount)
   end
 
+  def statement 
+    @transaction.print_history
+  end
+
   private
 
   def add_deposit_statement(amount)

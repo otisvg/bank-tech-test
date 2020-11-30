@@ -32,4 +32,14 @@ describe Bank do
     end
 
   end
+
+  describe "#statement" do
+    it "prints a statement of users transaction history" do
+      @bank.deposit(2000)
+      @bank.withdraw(500)
+      @bank.deposit(1000)
+      date_today = Time.new.strftime("%d/%m/%Y")
+      expect(@bank.statement).to eq ["date || credit || debit || balance", "30/11/2020 || 2000 || || 2000", "30/11/2020 || || 500 || 1500", "30/11/2020 || 1000 || || 2500"]
+    end
+  end
 end
