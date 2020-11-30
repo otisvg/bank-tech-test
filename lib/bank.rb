@@ -23,11 +23,11 @@ class Bank
   private
 
   def add_deposit_statement(amount)
-    @transaction.list << "#{transaction.date} || #{amount} || || #{balance}"
+    @transaction.list.unshift("#{transaction.date} || #{amount} || || #{balance}")
   end
 
   def add_withdraw_statement(amount)
-    @transaction.list << "#{transaction.date} || || #{amount} || #{balance}"
+    @transaction.list.unshift("#{transaction.date} || || #{amount} || #{balance}")
   end
 
 
