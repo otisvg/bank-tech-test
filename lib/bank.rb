@@ -11,6 +11,10 @@ class Bank
     add_deposit_statement(amount)
   end
 
+  def withdraw(amount)
+    @balance -= amount
+  end
+
   private
 
   def add_deposit_statement(amount)

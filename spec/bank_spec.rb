@@ -18,4 +18,16 @@ describe Bank do
     end
   end
 
+  describe "#withdraw" do
+    before(:each) do
+      @bank.deposit(1000)
+    end
+
+    it "increases the balance by deposited amount" do
+      @bank.withdraw(500)
+      expect(@bank.balance).to eq 500
+    end
+    
+  end
+
 end
