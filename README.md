@@ -17,6 +17,10 @@ Rough planning process: https://docs.google.com/document/d/11yRMNskT7XWWZfIx1FcP
 
 Bear in mind that the current codebase does not perfectly reflect the plan content, as I've since refactored and renamed certain classes and methods.
 
+### My Approach
+
+I completed this test following TDD principles to drive feature implementation. I first created a rough plan, as linked above, including CRC diagrams and pseudocode to give me an idea of how I would adhere to SRP and keep my classes well-encapsulated.  
+
 ### Test Requirements
 
 * You should be able to interact with your code via a REPL like IRB or the JavaScript console.  (You don't need to implement a command line interface that takes input from STDIN.)
