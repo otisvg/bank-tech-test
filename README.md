@@ -1,6 +1,5 @@
 # Bank tech test
 
-## Specification
 
 ### How to use
 
