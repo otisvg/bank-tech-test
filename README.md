@@ -30,8 +30,6 @@ I completed this test following TDD principles to drive feature implementation. 
 
 ![CRC](https://i.imgur.com/tOWzetj.png)  
 
-https://i.imgur.com/tOWzetj.png
-
 ### User Stories
 
 ```
