@@ -55,7 +55,3 @@ As a user,
 So that my bank statement is easy to read,
 I would like my statements listed in reverse chronological order
 ```
-
-![image1](https://imgur.com/tR5GJM1)
-![image4](https://s27.postimg.org/6l3wauu4j/markdown_converter.png)
-
