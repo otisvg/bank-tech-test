@@ -1,4 +1,4 @@
-class Bank
+class Account
   attr_reader :balance, :deposit, :transaction
 
   def initialize(transaction = Transaction.new)
@@ -16,7 +16,7 @@ class Bank
     add_withdraw_statement(amount)
   end
 
-  def statement 
+  def statement
     @transaction.print_history
   end
 
@@ -29,6 +29,4 @@ class Bank
   def add_withdraw_statement(amount)
     @transaction.list.unshift("#{transaction.date} || || #{amount} || #{balance}")
   end
-
-
 end

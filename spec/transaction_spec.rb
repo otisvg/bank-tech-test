@@ -1,6 +1,6 @@
 require 'transaction'
 
-describe Date do
+describe Transaction do
 
   describe "#current_date" do
     it "gets the current date" do
