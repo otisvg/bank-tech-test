@@ -13,6 +13,7 @@ Withdraw money as you wish ```account.withdraw(500)```
 Print your transaction history ```account.statement```
 
 Rough planning process: https://docs.google.com/document/d/11yRMNskT7XWWZfIx1FcPD_uXsXiQG_fjuXi8pyQrYd0/edit  
+
 Bear in mind that the current codebase does not perfectly reflect the plan content, as I've since refactored and renamed certain classes and methods.
 
 ### Test Requirements
