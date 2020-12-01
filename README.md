@@ -3,7 +3,9 @@
 
 ### How to use
 
-Run ```irb``` in your local console  
+Run ```git clone git@github.com:otisvg/bank-tech-test.git``` in your terminal  
+Run ```bundle install```  
+Run ```irb``` in your terminal  
 Enter ```require './lib/Account'```  
 Enter ```require './lib/Transaction'```  
 Create a bank account ```account = Account.new```  
