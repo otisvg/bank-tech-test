@@ -28,6 +28,8 @@ I completed this test following TDD principles to drive feature implementation. 
 * Account statement (date, amount, balance) printing.
 * Data can be kept in memory (it doesn't need to be stored to a database or anything).  
 
+### CRC Diagrams
+
 ![CRC](https://i.imgur.com/tOWzetj.png)  
 
 ### User Stories
