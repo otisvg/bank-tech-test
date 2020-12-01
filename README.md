@@ -4,15 +4,15 @@
 
 ### How to use
 
-Run ```irb``` in your local console
-Enter ```require './lib/Account'```
-Enter ```require './lib/Transaction'```
-Create a bank account ```account = Account.new```
-Deposit money as you wish ```account.deposit(1000)```
-Withdraw money as you wish ```account.withdraw(500)```
+Run ```irb``` in your local console  
+Enter ```require './lib/Account'```  
+Enter ```require './lib/Transaction'```  
+Create a bank account ```account = Account.new```  
+Deposit money as you wish ```account.deposit(1000)```  
+Withdraw money as you wish ```account.withdraw(500)```  
 Print your transaction history ```account.statement```
 
-Rough planning process: https://docs.google.com/document/d/11yRMNskT7XWWZfIx1FcPD_uXsXiQG_fjuXi8pyQrYd0/edit
+Rough planning process: https://docs.google.com/document/d/11yRMNskT7XWWZfIx1FcPD_uXsXiQG_fjuXi8pyQrYd0/edit  
 Bear in mind that the current codebase does not perfectly reflect the plan content, as I've since refactored and renamed certain classes and methods.
 
 ### Test Requirements
